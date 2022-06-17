@@ -32,7 +32,7 @@ namespace ImplementingCarApplication
 
         private void cbCars_SelectedIndexChanged(object sender, EventArgs e)
         {
-           int selectedindex = cbCars.SelectedIndex;
+            int selectedindex = cbCars.SelectedIndex;
             cbCars.SelectedItem = selectedCar;
 
             if(cbCars.SelectedIndex == 0)
@@ -89,6 +89,9 @@ namespace ImplementingCarApplication
                
         }
 
-      
+        private void btnAddCar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

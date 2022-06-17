@@ -17,7 +17,8 @@ namespace ImplementingCarApplication
             this.maxFuelLevel = nwMAxFeulLevel;
         }
 
-        public Car(string licencePlate, int maxFuelLevel, int currentFuelLevel, string carStatus) : this(licencePlate, maxFuelLevel)
+        public Car(string licencePlate, int maxFuelLevel, int currentFuelLevel, string carStatus)
+            : this(licencePlate, maxFuelLevel)
         {
             this.currentFuelLevel = currentFuelLevel;
             this.carStatus = carStatus;
